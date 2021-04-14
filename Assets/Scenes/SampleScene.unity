@@ -1808,7 +1808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3b578cbca1b5c6a48b6757fa45992452, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.22636291
+      value: 0.2263629
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3b578cbca1b5c6a48b6757fa45992452, type: 3}
       propertyPath: m_LocalScale.z
@@ -12003,18 +12003,18 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1442974418005624417, guid: 77d72a17873951a47987ba9961adaa50, type: 3}
---- !u!114 &897344310
-MonoBehaviour:
+--- !u!75 &897344311
+ConstantForce:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897344303}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 128c545b47df3924bb520233651d00f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Force: {x: 0, y: 0, z: 0}
+  m_RelativeForce: {x: 0, y: 0, z: 0}
+  m_Torque: {x: -1, y: 0, z: 0}
+  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1001 &903217251
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13015,13 +13015,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: -0, y: 0.929687, z: -0, w: 0.36835045}
   m_LocalPosition: {x: -2.84, y: 1.13, z: -8.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 136.772, z: 0}
 --- !u!1001 &964007725
 PrefabInstance:
   m_ObjectHideFlags: 0
